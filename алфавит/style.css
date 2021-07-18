@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.abc {
+    width: 580px;
+    display: flex;
+    justify-content: flex-end;
+}
+ul {
+    list-style: none;
+    font-size: 80px;
+    font-weight: 700;
+    color: blue;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+li {
+    transition: all 1s ease 0s;
+    padding: 0 20px;
+    cursor: pointer;
+}
+li._active {
+    /* opacity: 0; */
+    visibility: hidden;
+    transform: scale(10);
+    /* font-size: 0px; */
+    /* color: green; */
+    /* opacity: 0; */
+}
+ul:last-child {
+    justify-content: center;
+}
